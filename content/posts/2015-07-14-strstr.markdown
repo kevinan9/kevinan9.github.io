@@ -1,0 +1,56 @@
+---
+layout: post
+title: "strstr in c"
+date: 2015-07-14
+comments: true
+categories: ["Algorithm"]
+---
+
+Source Code
+--------
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define NOTFOUND -1
+int my_strstr(const char * s1, const char * s2) {
+    const char * p = s1;
+    do {
+        if (*p == *s2) { /* match first char */
+            const char * p1 = p;
+            const char * p2 = s2;
+            do 
+            {
+                if (!*p2) /* FOUND */
+                    return p - s1;
+                if (!*p1)
+                    return NOTFOUND;
+            }
+            while (*p1++ == *p2++);
+        }
+    }
+    while(*p++);
+
+    return NOTFOUND;
+}
+
+int 
+main(int argc, char ** argv) 
+{
+    char s1[] = "skldjfwioeuwetewtsdfsdf";
+    char s2[] = "sdfsdf";
+
+    int pos = my_strstr(s1, s2);
+    if (pos >= 0) {
+        printf("found:%d\n", pos);
+    }
+    else
+        printf("not found!\n");
+
+    exit(EXIT_SUCCESS);
+}
+
+
+```
+
