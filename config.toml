@@ -59,12 +59,6 @@ homepage = ["recent_posts"]
 sidebar = ["about","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
-# Taxonomy Cloud Widget config
-[taxonomy_cloud]
-title = ""                            # default: Plural Name for `taxonomyCloud.taxonomy`
-taxonomy = "tags"                     # default: "tags"
-shuffle = true                        # default: true
-
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
 appID = ""
