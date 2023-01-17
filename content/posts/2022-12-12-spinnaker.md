@@ -1,5 +1,5 @@
 ---
-title: "Deploying Spinnaker in a Kubernetes cluster"
+title: "Deploying Spinnaker in A Kubernetes Cluster"
 date: 2022-12-12
 tags: ["DevOps"]
 authors: ["kevinan9"]
