@@ -1,6 +1,7 @@
 ﻿---
 title: "Where I’m From"
-date: 2019-01-10
+date: "2019-01-10"
+lastmod: "2020-08-22"
 tags: ["bio","self"]
 authors: ["kevinan9"]
 ---
