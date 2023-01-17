@@ -75,7 +75,7 @@ titleSeparator = "•"
 github = "kevinan9"
 
 [params.comments]
-enable = false
+enable = true
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
@@ -84,16 +84,16 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
-username = "kevinan9"
-repository = "kevinan9.github.io"
+username = ""
+repository = ""
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
-enable = false
-issueTerm = "pathname" # pathname / url / title / og:title / <string>
+enable = true
+issueTerm = "blog" # pathname / url / title / og:title / <string>
 label = ""
 theme = "github-light"
 
@@ -102,7 +102,7 @@ username = "kevinan9"
 repository = "kevinan9.github.io"
 
 [params.search]
-client = "fuse" # algolia / fuse / lunr
+client = "algolia" # algolia / fuse / lunr
 
 [params.search.algolia]
 appId = ""
