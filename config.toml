@@ -93,7 +93,7 @@ repository = ""
 # Utterances: https://utteranc.es
 [params.comments.utterances]
 enable = true
-issueTerm = "blog" # pathname / url / title / og:title / <string>
+issueTerm = "pathname" # pathname / url / title / og:title / <string>
 label = ""
 theme = "github-light"
 
