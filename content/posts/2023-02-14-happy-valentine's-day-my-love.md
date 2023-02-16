@@ -1,7 +1,7 @@
 ﻿---
 title: "Happy Valentine's Day, My Love"
 date: "2023-02-14"
-lastmod: "2023-02-142"
+lastmod: "2023-02-14"
 tags: ["bio","self"]
 authors: ["kevinan9"]
 ---
