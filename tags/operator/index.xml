@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Operator on Kev's 9th blog</title><link>https://kevinan9.github.io/tags/operator/</link><description>Recent content in Operator on Kev's 9th blog</description><generator>Hugo -- gohugo.io</generator><copyright>© 2014-2023 Kevin A.</copyright><lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kevinan9.github.io/tags/operator/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing MongoDB in Kubernetes</title><link>https://kevinan9.github.io/posts/2023-02-26-mongodb-in-k8s/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://kevinan9.github.io/posts/2023-02-26-mongodb-in-k8s/</guid><description>Installing MongoDB in Kubernetes Prerequisites This tutorial will be a hands-on demonstration. To follow along, be sure you have the following requirements:
-minikube up and running - check out our setup guide: [WIP] Local Kubernetes Setup
+minikube up and running
 MongoDB Compass installed on the local machine.
 Git installed on your machine.
 jq JSON Parser installed on the local machine.
-Downloading the MongoDB Kubernetes Operator Run the git command below to clone the MongoDB Kubernetes Operator project to your local machine.</description></item></channel></rss>
+Downloading the MongoDB Kubernetes Operator Run the git command below to clone the MongoDB Kubernetes Operator project to your local machine.
+git clone https://github.com/mongodb/mongodb-kubernetes-operator.git</description></item></channel></rss>
