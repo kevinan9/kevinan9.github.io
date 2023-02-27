@@ -11,7 +11,7 @@ authors: ["kevinan9"]
 
 This tutorial will be a hands-on demonstration. To follow along, be sure you have the following requirements:
 
--   `minikube` up and running - check out our setup guide: [[WIP] Local Kubernetes Setup](https://lightspeedteamr.atlassian.net/l/cp/HtmQ781f "https://lightspeedteamr.atlassian.net/l/cp/HtmQ781f")
+-   `minikube` up and running
     
 -   [MongoDB Compass](https://www.mongodb.com/products/compass "https://www.mongodb.com/products/compass") installed on the local machine.
     
